@@ -28,6 +28,7 @@ function verifier (nombre){
     //c'est le juste prix
     instruction.textContent="#  (" +coup+") "+ nombre + " félicitations!";
      instruction.className='instruction fini';
+     prix.disabled=true;
     
   }
   document.getElementById('instructions').prepend(instruction);

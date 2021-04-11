@@ -30,7 +30,7 @@ function verifier (nombre){
      instruction.className='instruction fini';
     
   }
-  document.getElementById('instructions').preppend(instruction);
+  document.getElementById('instructions').prepend(instruction);
   
 }
 
